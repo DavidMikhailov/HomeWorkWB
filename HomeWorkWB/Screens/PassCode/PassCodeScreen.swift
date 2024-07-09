@@ -68,10 +68,10 @@ private extension PassCodeScreen {
             isValidCode: $isValidCode,
             isCodeSubmitted: $isCodeSubmitted
         )
-            .focused($isTextFieldFocused)
-            .frame(width: 400, height: 128)
-            .cornerRadius(12)
-            .padding(.top, 24)
+        .focused($isTextFieldFocused)
+        .frame(width: 400, height: 128)
+        .cornerRadius(12)
+        .padding(.top, 24)
     }
     
     var timerLabel: some View {
@@ -102,8 +102,8 @@ private extension PassCodeScreen {
     }
     
     private func validateCode() {
-            isValidCode = (code == "1234") // Замените на вашу логику проверки кода
-        }
+        isValidCode = (code == "1234")
+    }
 }
 
 

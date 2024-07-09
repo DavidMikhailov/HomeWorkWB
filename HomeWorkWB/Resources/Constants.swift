@@ -34,6 +34,7 @@ struct Constants {
         static let requestCode = "Запросить код"
         static let phoneMask = "+7 (___) ___ - __ - __"
         static let toBack = "Вернуться назад"
+        static let invalidPassword = "Неверный пароль"
     }
     
     struct Images {

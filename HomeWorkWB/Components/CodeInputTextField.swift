@@ -45,7 +45,7 @@ struct CodeInputTextField: View {
             }
             
             if !isValidCode {
-                Text("Неверный пароль")
+                Text(Constants.Strings.invalidPassword)
                     .foregroundColor(.red)
                     .font(Constants.Fonts.montserratRegular14)
                     .padding(.top, 12)
