@@ -23,7 +23,7 @@ struct PhoneNumberTextField: View {
             }
             
             if phoneNumber.isEmpty {
-                Text("+7 (___) ___-__-__")
+                Text(Constants.Strings.phoneMask)
                     .foregroundColor(.gray)
                     .padding(.leading, 10)
             }
