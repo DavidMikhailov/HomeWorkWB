@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410DE7152C39F3A100DD2829 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE7142C39F3A100DD2829 /* MainButton.swift */; };
+		410DE7172C39F50400DD2829 /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE7162C39F50400DD2829 /* PhoneNumberTextField.swift */; };
+		410DE71B2C39FAE800DD2829 /* PassCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE71A2C39FAE800DD2829 /* PassCodeScreen.swift */; };
+		410DE71D2C39FAF200DD2829 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE71C2C39FAF200DD2829 /* LoadingScreen.swift */; };
+		410DE71F2C39FBC000DD2829 /* ReusableVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE71E2C39FBC000DD2829 /* ReusableVStack.swift */; };
+		410DE7212C39FE2E00DD2829 /* ReusableZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE7202C39FE2E00DD2829 /* ReusableZStack.swift */; };
+		410DE7232C3AD86F00DD2829 /* CodeInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DE7222C3AD86F00DD2829 /* CodeInputTextField.swift */; };
+		41434DD12C36AF290076102D /* TextFieldClearButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41434DD02C36AF290076102D /* TextFieldClearButtonModifier.swift */; };
+		41434DD32C36B21E0076102D /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41434DD22C36B21E0076102D /* HideKeyboard.swift */; };
+		4145F35C2C31A0E700135E13 /* HomeWorkWBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145F35B2C31A0E700135E13 /* HomeWorkWBApp.swift */; };
+		4145F35E2C31A0E700135E13 /* AutorizationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145F35D2C31A0E700135E13 /* AutorizationScreen.swift */; };
+		4145F3602C31A0E900135E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4145F35F2C31A0E900135E13 /* Assets.xcassets */; };
+		4145F3632C31A0E900135E13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4145F3622C31A0E900135E13 /* Preview Assets.xcassets */; };
+		41DF9B3D2C359F200052DCBA /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF9B3C2C359F200052DCBA /* BackgroundModifier.swift */; };
+		41DF9B412C35A9E80052DCBA /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41DF9B402C35A9E70052DCBA /* Montserrat-Regular.ttf */; };
+		41DF9B442C35AAFD0052DCBA /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41DF9B432C35AAFC0052DCBA /* Montserrat-SemiBold.ttf */; };
+		41DF9B482C35B3710052DCBA /* HexToColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF9B472C35B3710052DCBA /* HexToColor.swift */; };
+		41DF9B4A2C35B4AE0052DCBA /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41DF9B492C35B4AE0052DCBA /* Montserrat-Medium.ttf */; };
+		41DF9B4C2C35B4FD0052DCBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF9B4B2C35B4FD0052DCBA /* Constants.swift */; };
+		41EB80592C3DD5A200500C3D /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB80582C3DD5A200500C3D /* TimerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410DE7142C39F3A100DD2829 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		410DE7162C39F50400DD2829 /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
+		410DE71A2C39FAE800DD2829 /* PassCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeScreen.swift; sourceTree = "<group>"; };
+		410DE71C2C39FAF200DD2829 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		410DE71E2C39FBC000DD2829 /* ReusableVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableVStack.swift; sourceTree = "<group>"; };
+		410DE7202C39FE2E00DD2829 /* ReusableZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableZStack.swift; sourceTree = "<group>"; };
+		410DE7222C3AD86F00DD2829 /* CodeInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInputTextField.swift; sourceTree = "<group>"; };
+		41434DD02C36AF290076102D /* TextFieldClearButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButtonModifier.swift; sourceTree = "<group>"; };
+		41434DD22C36B21E0076102D /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		4145F3582C31A0E700135E13 /* HomeWorkWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4145F35B2C31A0E700135E13 /* HomeWorkWBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkWBApp.swift; sourceTree = "<group>"; };
+		4145F35D2C31A0E700135E13 /* AutorizationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationScreen.swift; sourceTree = "<group>"; };
+		4145F35F2C31A0E900135E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4145F3622C31A0E900135E13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41DF9B3C2C359F200052DCBA /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		41DF9B402C35A9E70052DCBA /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		41DF9B422C35AA750052DCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DF9B432C35AAFC0052DCBA /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		41DF9B472C35B3710052DCBA /* HexToColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToColor.swift; sourceTree = "<group>"; };
+		41DF9B492C35B4AE0052DCBA /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		41DF9B4B2C35B4FD0052DCBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		41EB80582C3DD5A200500C3D /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4145F3552C31A0E700135E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410DE7132C39F37200DD2829 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				41EB80542C3DD48200500C3D /* Authorization */,
+				41EB80562C3DD49A00500C3D /* PassCode */,
+				41EB80572C3DD50400500C3D /* Loading */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		410DE7182C39F83F00DD2829 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41DF9B4B2C35B4FD0052DCBA /* Constants.swift */,
+				41DF9B462C35B3570052DCBA /* Extensions */,
+				41DF9B3E2C359F6D0052DCBA /* Modifiers */,
+				41DF9B3F2C35A9820052DCBA /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		410DE7192C39F86C00DD2829 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				410DE7142C39F3A100DD2829 /* MainButton.swift */,
+				410DE7162C39F50400DD2829 /* PhoneNumberTextField.swift */,
+				410DE71E2C39FBC000DD2829 /* ReusableVStack.swift */,
+				410DE7202C39FE2E00DD2829 /* ReusableZStack.swift */,
+				410DE7222C3AD86F00DD2829 /* CodeInputTextField.swift */,
+				41EB80582C3DD5A200500C3D /* TimerManager.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4145F34F2C31A0E700135E13 = {
+			isa = PBXGroup;
+			children = (
+				4145F35A2C31A0E700135E13 /* HomeWorkWB */,
+				4145F3592C31A0E700135E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4145F3592C31A0E700135E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4145F3582C31A0E700135E13 /* HomeWorkWB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4145F35A2C31A0E700135E13 /* HomeWorkWB */ = {
+			isa = PBXGroup;
+			children = (
+				4145F35B2C31A0E700135E13 /* HomeWorkWBApp.swift */,
+				410DE7132C39F37200DD2829 /* Screens */,
+				410DE7192C39F86C00DD2829 /* Components */,
+				410DE7182C39F83F00DD2829 /* Resources */,
+				41DF9B422C35AA750052DCBA /* Info.plist */,
+				4145F35F2C31A0E900135E13 /* Assets.xcassets */,
+				4145F3612C31A0E900135E13 /* Preview Content */,
+			);
+			path = HomeWorkWB;
+			sourceTree = "<group>";
+		};
+		4145F3612C31A0E900135E13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4145F3622C31A0E900135E13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41DF9B3E2C359F6D0052DCBA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				41DF9B3C2C359F200052DCBA /* BackgroundModifier.swift */,
+				41434DD02C36AF290076102D /* TextFieldClearButtonModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		41DF9B3F2C35A9820052DCBA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				41DF9B432C35AAFC0052DCBA /* Montserrat-SemiBold.ttf */,
+				41DF9B492C35B4AE0052DCBA /* Montserrat-Medium.ttf */,
+				41DF9B402C35A9E70052DCBA /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		41DF9B462C35B3570052DCBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41DF9B472C35B3710052DCBA /* HexToColor.swift */,
+				41434DD22C36B21E0076102D /* HideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41EB80542C3DD48200500C3D /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				4145F35D2C31A0E700135E13 /* AutorizationScreen.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		41EB80562C3DD49A00500C3D /* PassCode */ = {
+			isa = PBXGroup;
+			children = (
+				410DE71A2C39FAE800DD2829 /* PassCodeScreen.swift */,
+			);
+			path = PassCode;
+			sourceTree = "<group>";
+		};
+		41EB80572C3DD50400500C3D /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				410DE71C2C39FAF200DD2829 /* LoadingScreen.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4145F3572C31A0E700135E13 /* HomeWorkWB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4145F3662C31A0E900135E13 /* Build configuration list for PBXNativeTarget "HomeWorkWB" */;
+			buildPhases = (
+				4145F3542C31A0E700135E13 /* Sources */,
+				4145F3552C31A0E700135E13 /* Frameworks */,
+				4145F3562C31A0E700135E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeWorkWB;
+			productName = HomeWorkWB;
+			productReference = 4145F3582C31A0E700135E13 /* HomeWorkWB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4145F3502C31A0E700135E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4145F3572C31A0E700135E13 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4145F3532C31A0E700135E13 /* Build configuration list for PBXProject "HomeWorkWB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4145F34F2C31A0E700135E13;
+			productRefGroup = 4145F3592C31A0E700135E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4145F3572C31A0E700135E13 /* HomeWorkWB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4145F3562C31A0E700135E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DF9B412C35A9E80052DCBA /* Montserrat-Regular.ttf in Resources */,
+				41DF9B4A2C35B4AE0052DCBA /* Montserrat-Medium.ttf in Resources */,
+				4145F3632C31A0E900135E13 /* Preview Assets.xcassets in Resources */,
+				41DF9B442C35AAFD0052DCBA /* Montserrat-SemiBold.ttf in Resources */,
+				4145F3602C31A0E900135E13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4145F3542C31A0E700135E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41434DD12C36AF290076102D /* TextFieldClearButtonModifier.swift in Sources */,
+				410DE71D2C39FAF200DD2829 /* LoadingScreen.swift in Sources */,
+				410DE7232C3AD86F00DD2829 /* CodeInputTextField.swift in Sources */,
+				41EB80592C3DD5A200500C3D /* TimerManager.swift in Sources */,
+				410DE71F2C39FBC000DD2829 /* ReusableVStack.swift in Sources */,
+				4145F35E2C31A0E700135E13 /* AutorizationScreen.swift in Sources */,
+				410DE7172C39F50400DD2829 /* PhoneNumberTextField.swift in Sources */,
+				41DF9B4C2C35B4FD0052DCBA /* Constants.swift in Sources */,
+				410DE7152C39F3A100DD2829 /* MainButton.swift in Sources */,
+				41DF9B3D2C359F200052DCBA /* BackgroundModifier.swift in Sources */,
+				41434DD32C36B21E0076102D /* HideKeyboard.swift in Sources */,
+				41DF9B482C35B3710052DCBA /* HexToColor.swift in Sources */,
+				410DE7212C39FE2E00DD2829 /* ReusableZStack.swift in Sources */,
+				4145F35C2C31A0E700135E13 /* HomeWorkWBApp.swift in Sources */,
+				410DE71B2C39FAE800DD2829 /* PassCodeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4145F3642C31A0E900135E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4145F3652C31A0E900135E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4145F3672C31A0E900135E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkWB/Preview Content\"";
+				DEVELOPMENT_TEAM = X84H3LFA4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeWorkWB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidm.HomeWorkWB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4145F3682C31A0E900135E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkWB/Preview Content\"";
+				DEVELOPMENT_TEAM = X84H3LFA4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeWorkWB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidm.HomeWorkWB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4145F3532C31A0E700135E13 /* Build configuration list for PBXProject "HomeWorkWB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4145F3642C31A0E900135E13 /* Debug */,
+				4145F3652C31A0E900135E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4145F3662C31A0E900135E13 /* Build configuration list for PBXNativeTarget "HomeWorkWB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4145F3672C31A0E900135E13 /* Debug */,
+				4145F3682C31A0E900135E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4145F3502C31A0E700135E13 /* Project object */;
+}
